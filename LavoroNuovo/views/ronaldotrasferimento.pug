@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>#{title}</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Profilo di #{nome}</h1>
+      <div class="row">
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <img src="ronaldotrasferimento.jpeg" alt="ronaldotrasferimento" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+          <h2>Nome</h2>
+          <p>#{persona.nome}</p>
+          <h2>Età</h2>
+          <p>#{persona.eta}</p>
+          <h2>Biografia</h2>
+          <p>#{persona.biografia}</p>
+          <h2>Ruolo</h2>
+          <p>#{persona.ruolo}</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
