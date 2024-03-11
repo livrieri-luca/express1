@@ -1,0 +1,27 @@
+{
+    "profiles": [
+      {
+        "firstname": "Giorgio",
+        "lastname": "Chiellini",
+        "bio": "Giorgio Chiellini è un difensore italiano conosciuto per la sua leadership, forza fisica, e abilità difensive. Nato il 14 agosto 1984 a Pisa, Italia, ha speso gran parte della sua carriera alla Juventus, diventando uno dei più rispettati capitani del club. Conosciuto per la sua aggressività in campo e la sua capacità di leggere il gioco, Chiellini ha guadagnato fama anche per il suo spirito sportivo e la sua lealtà. Ha contribuito a numerose vittorie della Juventus, inclusi scudetti e coppe italiane, e ha avuto un ruolo importante nella nazionale italiana, vincendo l'Europeo nel 2021. Chiellini è apprezzato per il suo impegno, la sua resilienza e il suo carisma sia dentro che fuori dal campo.",        
+        "imgSrc": "styles/images/chiellini.jpeg",
+        "id": "chiellini"
+      },
+   
+      {
+        "firstname": "Paulo",
+        "lastname": "Dybala",
+        "bio": "Paulo Dybala è un attaccante argentino noto per la sua tecnica raffinata, visione di gioco, e capacità di segnare da diverse posizioni. Nato il 15 novembre 1993 a Laguna Larga, Argentina, ha guadagnato notorietà al Palermo prima di trasferirsi alla Juventus, dove si è affermato come uno dei giocatori chiave. Con un piede sinistro magico, Dybala brilla per la sua abilità nel dribbling, la precisione nei calci di punizione e l'istinto sotto porta. Caratterizzato da una creatività eccezionale, è capace di creare occasioni di gol sia per sé che per i compagni di squadra. Oltre ai successi in club, ha rappresentato l'Argentina a livello internazionale, contribuendo con prestazioni importanti. La sua intelligenza calcistica, unita alla sua agilità e capacità di eseguire in momenti cruciali, lo rende un talento eccezionale nel panorama calcistico mondiale.",
+        "imgSrc": "styles/images/dybala.jpeg",
+        "id": "dybala"
+      },
+   
+      {
+        "firstname": "Cristiano",
+        "lastname": "Ronaldo",
+        "bio": "Cristiano Ronaldo è uno degli attaccanti più celebri e talentuosi del calcio mondiale, noto per la sua incredibile velocità, tecnica sopraffina, e abilità nel segnare. Nato il 5 febbraio 1985 a Funchal, Madeira, Portogallo, ha iniziato la sua carriera al Sporting Lisbona prima di emergere come stella mondiale al Manchester United. Successivamente, ha giocato per il Real Madrid e la Juventus, stabilendo numerosi record di gol. Ronaldo è famoso per il suo lavoro etico, la sua dedizione all'allenamento, e la sua ambizione senza fine. Oltre alla sua potenza fisica e precisione nei colpi di testa, è eccezionale nei calci di punizione e nei rigori. Ha vinto cinque Palloni d'Oro e numerosi titoli di campionato e coppe europee, oltre a essere capocannoniere in diverse competizioni. Leader in campo e fuori, Cristiano Ronaldo è anche un'icona globale al di fuori del calcio, con un impatto significativo su marketing e beneficenza.",
+        "imgSrc": "styles/images/ronaldotrasferimento.jpeg",
+        "id": "ronaldotrasferimento"
+ }
+]
+}

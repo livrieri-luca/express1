@@ -1,29 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>#{title}</title>
-  <link rel="stylesheet" href="/style/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-</head>
-<body>
-  <div class="container">
-    <h1 class="title">Profilo di #{nome}</h1>
-    <div class="row">
-      <div class="col-md-4 d-flex flex-column align-items-center">
-        <img src="/styles/images/chiellini.jpeg" alt="chiellini" class="img-fluid">
-        <a href="/profili/chiellini" class="btn btn-primary">Chiellini</a>
-      </div>
-      <div class="col-md-4 d-flex flex-column align-items-center">
-        <img src="/styles/images/dybala.jpeg" alt="dybala" class="img-fluid">
-        <a href="/profili/dybala" class="btn btn-primary">Dybala</a>
-      </div>
-      <div class="col-md-4 d-flex flex-column align-items-center">
-        <img src="/styles/images/ronaldotrasferimento.jpeg" alt="ronaldotrasferimento" class="img-fluid">
-        <a href="/profili/ronaldotrasferimento" class="btn btn-primary">Ronaldo</a>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+doctype html
+html
+  head
+    title=title
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/styles/style.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+  body
+    header.header
+      h1.titolo-profili #{title}
+    article.container
+      .row
+        each person in people
+          .col-md-4.d-flex.flex-column.align-items-center
+            .person
+              .person-image(style=background: url('${person.imgSrc}') top center no-repeat; background-size: cover;)
+              h2.person-name #{person.firstname} #{person.lastname}
+              .row
+                a.buttonp(href=/profilo?id=${person.id})PROFILO
